@@ -96,7 +96,7 @@ Les résultats pour ces données volumineuses ont été obtenus en choisissant l
 
 L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Living_people
 
-![](result/top_10_big.png)
+![TOP 10 big](result/top_10_big.png)
 
 | URL | Rank |
 | --- | ---- |
