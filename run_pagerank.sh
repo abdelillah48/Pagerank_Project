@@ -31,9 +31,9 @@ for NUM_NODES in "${NODE_COUNTS[@]}"; do
             gcloud dataproc clusters create "$CLUSTER_NAME" \
                 --enable-component-gateway --region="$REGION" \
                 --zone="$REGION-b" --master-machine-type="n1-standard-4" \
-                --master-boot-disk-size=500 --master-boot-disk-type=pd-standard \
+                --master-boot-disk-size=50 --master-boot-disk-type=pd-standard \
                 --num-workers="$NUM_NODES" --public-ip-address \
-                --worker-machine-type="n1-standard-4" --worker-boot-disk-size=500 \
+                --worker-machine-type="n1-standard-4" --worker-boot-disk-size=50 \
                 --worker-boot-disk-type=pd-standard \
                 --image-version="2.0-debian10" \
                 --project="$PROJECT_ID"
@@ -42,7 +42,7 @@ for NUM_NODES in "${NODE_COUNTS[@]}"; do
             gcloud dataproc clusters create "$CLUSTER_NAME" --single-node \
                 --enable-component-gateway --region="$REGION" \
                 --zone="$REGION-c" --master-machine-type="n1-standard-4" \
-                --master-boot-disk-size=500 --master-boot-disk-type=pd-standard \
+                --master-boot-disk-size=50 --master-boot-disk-type=pd-standard \
                 --image-version="2.0-debian10" \
                 --project="$PROJECT_ID" --public-ip-address
         fi
