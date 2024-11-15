@@ -30,7 +30,7 @@ chmod +x run_pagerank.sh
 
 ## Fichiers de Données
 
-
+Les données sont dans: gs:///public_lddm_data/
 
 Il existe deux types de fichiers de données avec lesquels nous travaillons :
 
