@@ -75,7 +75,7 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 |-------|----------------------------------|----------------------------------------|
 | 1     | 79s                              | 79s                                   |
 | 2     | 51s                              | 55s                                    |
-| 4     | 54s                              | 57s                                    |
+| 4     | 53s                              | 57s                                    |
 
 3. **Meilleurs Scores**
 
