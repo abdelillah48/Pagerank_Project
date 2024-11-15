@@ -81,6 +81,7 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Anatolia
 
+
 | Entity URL                                                                 | Rank            |
 |-----------------------------------------------------------------------------|-----------------|
 | http://dbpedia.org/resource/Anatolia                            | 0.2933423534896527 |
@@ -94,7 +95,7 @@ L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/An
 | http://dbpedia.org/resource/Existence_of_God%23Arguments_for_the_existence_of_God | 0.2784577993813522 |
 | http://dbpedia.org/resource/Attention-deficit_hyperactivity_disorder | 0.2779376368829868 |
 
-
+![TOP 10 big](result/top_10_small.png)
 ### page_links_en.nt.bz
 
 Les résultats pour ces données volumineuses ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=500, et worker-boot-disk-size=500.
@@ -112,8 +113,6 @@ Les résultats pour ces données volumineuses ont été obtenus en choisissant l
 
 L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Living_people
 
-![TOP 10 big](result/top_10_big.jpg)
-
 | URL | Rank |
 | --- | ---- |
 | <http://dbpedia.org/resource/Living_people> | 38525.86 |
@@ -127,6 +126,7 @@ L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Li
 | <http://dbpedia.org/resource/England> | 2190.84 |
 | <http://dbpedia.org/resource/World_War_II> | 2007.83 |
 
+![TOP 10 big](result/top_10_big.jpg)
 
 ## Note 
 
