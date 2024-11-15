@@ -1,7 +1,7 @@
 # Pagerank_Project
------
 
-### Installation Prérequis
+
+## Installation Prérequis
 
 
 
@@ -11,7 +11,7 @@ Avant d'exécuter les scripts, il est recommandé d'installer le SDK Google Clou
 
 
 
-### Exécution des Fichiers
+## Exécution des Fichiers
 
 
 
@@ -27,7 +27,7 @@ chmod +x run_pagerank.sh
 
 
 
-### Fichiers de Données
+## Fichiers de Données
 
 
 
@@ -38,7 +38,7 @@ Il existe deux types de fichiers de données avec lesquels nous travaillons :
 
 
 
-### Méthodes de Pagerank
+## Méthodes de Pagerank
 
 
 
@@ -53,7 +53,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 
 
 
-### small_page_links.nt
+#### small_page_links.nt
 
 Les résultats pour ces données ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=50, et worker-boot-disk-size=50.
 
@@ -76,7 +76,7 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 3. **Meilleurs Scores**
 
-### page_links_en.nt.bz
+#### page_links_en.nt.bz
 
 Les résultats pour ces données volumineuses ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=500, et worker-boot-disk-size=500.
 
@@ -109,6 +109,6 @@ L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Li
 | <http://dbpedia.org/resource/World_War_II> | 2007.83 |
 
 
-### Note 
+## Note 
 
 Les résultats pour les données en mode 'sans partitionnement' ne sont pas disponibles, car tous les crédits ont été consommés
