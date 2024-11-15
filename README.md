@@ -96,7 +96,7 @@ Les résultats pour ces données volumineuses ont été obtenus en choisissant l
 
 L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Living_people
 
-( Imge mountasser)
+![](result/architecture.png)
 
 | URL | Rank |
 | --- | ---- |
