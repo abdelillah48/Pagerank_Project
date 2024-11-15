@@ -53,7 +53,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 
 
 
-#### small_page_links.nt
+### small_page_links.nt
 
 Les résultats pour ces données ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=50, et worker-boot-disk-size=50.
 
@@ -76,7 +76,7 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 3. **Meilleurs Scores**
 
-#### page_links_en.nt.bz
+### page_links_en.nt.bz
 
 Les résultats pour ces données volumineuses ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=500, et worker-boot-disk-size=500.
 
