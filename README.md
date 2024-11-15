@@ -71,6 +71,8 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 2     | 55s                              | 95s                                    |
 | 4     | 54s                              | 99s                                    |
 
+3. **Meilleurs Scores**
+
 ### page_links_en.nt.bz
 
 1. **Avec Partitionnement**
