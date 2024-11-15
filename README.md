@@ -79,6 +79,22 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 3. **Meilleurs Scores**
 
+L'entité ayant le PageRank le plus élevé est : http://dbpedia.org/resource/Anatolia
+
+| Entity URL                                                                 | Rank            |
+|-----------------------------------------------------------------------------|-----------------|
+| http://dbpedia.org/resource/Anatolia                            | 0.2933423534896527 |
+| http://dbpedia.org/resource/Ada_Lovelace                    | 0.2843572510858131 |
+| http://dbpedia.org/resource/Acronym_and_initialism | 0.2832962289282783 |
+| http://dbpedia.org/resource/Abbreviation                    | 0.2823795813922781 |
+| http://dbpedia.org/resource/Algorithm                          | 0.28135451855968174 |
+| http://dbpedia.org/resource/Nuclear_weapon               | 0.2805903825376994 |
+| http://dbpedia.org/resource/Anglican_Communion       | 0.28058732721219426 |
+| http://dbpedia.org/resource/Actor                                  | 0.2803627471547818 |
+| http://dbpedia.org/resource/Existence_of_God%23Arguments_for_the_existence_of_God | 0.2784577993813522 |
+| http://dbpedia.org/resource/Attention-deficit_hyperactivity_disorder | 0.2779376368829868 |
+
+
 ### page_links_en.nt.bz
 
 Les résultats pour ces données volumineuses ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=500, et worker-boot-disk-size=500.
