@@ -14,6 +14,8 @@ Avant d'exécuter les scripts, il est recommandé d'installer le SDK Google Clou
 
 ## Exécution des Fichiers
 
+Après la création du bucket, vous devez télécharger les fichiers .sh et .py dans ce dernier en utilisant la commande suivante : gsutil cp /chemin/vers/<fichier> gs://<nom-du-bucket>/
+
 
 
 Pour exécuter le projet Pagerank, suivez ces étapes :
