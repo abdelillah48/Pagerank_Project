@@ -91,7 +91,9 @@ Les résultats pour ces données volumineuses ont été obtenus en choisissant l
 
 2. **Meilleurs Scores**
 
----
+Le plus grand pagerak est : http://dbpedia.org/resource/Living_people
+
+( Imge mountasser)
 
 | URL | Rank |
 | --- | ---- |
