@@ -82,3 +82,20 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 4     | -s                                | 3593s                                      |
 
 
+### 10 Meilleurs Scores
+
+---
+
+| URL | Rank |
+| --- | ---- |
+| <http://dbpedia.org/resource/Living_people> | 38525.86 |
+| <http://dbpedia.org/resource/United_States> | 7267.18 |
+| <http://dbpedia.org/resource/Year_of_birth_missing_%28living_people%29> | 4666.78 |
+| <http://dbpedia.org/resource/United_Kingdom> | 2853.39 |
+| <http://dbpedia.org/resource/France> | 2765.00 |
+| <http://dbpedia.org/resource/Germany> | 2423.81 |
+| <http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census> | 2260.67 |
+| <http://dbpedia.org/resource/Canada> | 2195.43 |
+| <http://dbpedia.org/resource/England> | 2190.84 |
+| <http://dbpedia.org/resource/World_War_II> | 2007.83 |
+
