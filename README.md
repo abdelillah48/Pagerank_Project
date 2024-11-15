@@ -63,17 +63,17 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 | Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
 |-------|----------------------------------|---------------------------------------|
-| 1     | 103s                             | 204s                                   |
-| 2     | 95s                              | 174s                                   |
-| 4     | 99s                              | 184s                                   |
+| 1     | 103s                             | 63s                                   |
+| 2     | 95s                              | 61s                                   |
+| 4     | 99s                              | 67s                                   |
 
 2. **Avec Partitionnement**
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
-| 1     | 56s                              | 103s                                   |
-| 2     | 55s                              | 95s                                    |
-| 4     | 54s                              | 99s                                    |
+| 1     | 56s                              | 79s                                   |
+| 2     | 55s                              | 55s                                    |
+| 4     | 54s                              | 57s                                    |
 
 3. **Meilleurs Scores**
 
