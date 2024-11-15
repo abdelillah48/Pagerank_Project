@@ -1,12 +1,12 @@
 # Pagerank_Project
 
-## Installation Prérequis
+### Installation Prérequis
 
 Avant d'exécuter les scripts, il est recommandé d'installer le SDK Google Cloud (CLI) sur votre ordinateur pour éviter les problèmes de connexion avec Cloud Shell. Vous pouvez télécharger et l'installer en suivant les instructions ci-dessous :
 
 [Installer le SDK Google Cloud](https://cloud.google.com/sdk/docs/install?hl=fr)
 
-## Exécution des Fichiers
+### Exécution des Fichiers
 
 Pour exécuter le projet Pagerank, suivez ces étapes :
 
@@ -19,23 +19,25 @@ chmod +x run_pagerank.sh
 ./run_pagerank.sh
 
 
-## Fichiers de Données
+### Fichiers de Données
 
 Il existe deux types de fichiers de données avec lesquels nous travaillons :
 
 - \`page_links_en.nt.bz2\`
 - \`small_page_links.nt\`
 
-## Méthodes de Pagerank
+### Méthodes de Pagerank
 
 Il existe deux méthodes pour calculer le Pagerank :
 
 1. **Approche basée sur RDD**
 2. **Approche basée sur DataFrame**
 
-## Résultats d'Exécution sur les données **small_page_links.nt**
+## Résultats d'Exécution 
 
-### Sans Partitionnement
+###small_page_links.nt
+
+##### Sans Partitionnemen
 
 | Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
 |-------|----------------------------------|---------------------------------------|
@@ -43,7 +45,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 2     | s                              | s                                   |
 | 4     | s                              | s                                   |
 
-### Avec Partitionnement
+##### Avec Partitionnement
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
@@ -51,9 +53,9 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 2     | s                              | s                                    |
 | 4     | s                              | s                                    |
 
-## Résultats d'Exécution sur les données **page_links_en.nt.bz2**
+###page_links_en.nt.bz
 
-### Sans Partitionnement
+##### Sans Partitionnement
 
 | Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
 |-------|----------------------------------|---------------------------------------|
@@ -61,7 +63,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 2     | s                              | s                                   |
 | 4     | s                              | s                                   |
 
-### Avec Partitionnement
+##### Avec Partitionnement
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
