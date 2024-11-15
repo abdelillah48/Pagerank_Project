@@ -55,6 +55,9 @@ Il existe deux méthodes pour calculer le Pagerank :
 
 ### small_page_links.nt
 
+Les résultats pour ces données ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=50, et worker-boot-disk-size=50.
+
+
  1. **Sans Partitionnemen**
 
 | Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
@@ -74,6 +77,8 @@ Il existe deux méthodes pour calculer le Pagerank :
 3. **Meilleurs Scores**
 
 ### page_links_en.nt.bz
+
+Les résultats pour ces données volumineuses ont été obtenus en choisissant les configurations suivantes : master-machine-type="n1-standard-4", master-boot-disk-size=500, et worker-boot-disk-size=500.
 
 1. **Avec Partitionnement**
 
