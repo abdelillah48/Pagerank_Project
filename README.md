@@ -82,7 +82,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 4     | -s                                | 3593s                                      |
 
 
-### 10 Meilleurs Scores
+2.**10 Meilleurs Scores**
 
 ---
 
