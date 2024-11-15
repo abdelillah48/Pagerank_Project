@@ -73,7 +73,7 @@ Les résultats pour ces données ont été obtenus en choisissant les configurat
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
-| 1     | 56s                              | 79s                                   |
+| 1     | 79s                              | 79s                                   |
 | 2     | 55s                              | 55s                                    |
 | 4     | 54s                              | 57s                                    |
 
