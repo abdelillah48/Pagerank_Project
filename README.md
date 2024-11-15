@@ -1,19 +1,19 @@
 # Pagerank_Project
--
+-----
 
 ### Installation Prérequis
 
--
+
 
 Avant d'exécuter les scripts, il est recommandé d'installer le SDK Google Cloud (CLI) sur votre ordinateur pour éviter les problèmes de connexion avec Cloud Shell. Vous pouvez télécharger et l'installer en suivant les instructions ci-dessous :
 
 [Installer le SDK Google Cloud](https://cloud.google.com/sdk/docs/install?hl=fr)
 
--
+
 
 ### Exécution des Fichiers
 
--
+
 
 Pour exécuter le projet Pagerank, suivez ces étapes :
 
@@ -25,33 +25,33 @@ chmod +x run_pagerank.sh
 
 ./run_pagerank.sh
 
--
+
 
 ### Fichiers de Données
 
--
+
 
 Il existe deux types de fichiers de données avec lesquels nous travaillons :
 
 - \`page_links_en.nt.bz2\`
 - \`small_page_links.nt\`
 
--
+
 
 ### Méthodes de Pagerank
 
--
+
 
 Il existe deux méthodes pour calculer le Pagerank :
 
 1. **Approche basée sur RDD**
 2. **Approche basée sur DataFrame**
 
--
+
 
 ## Résultats d'Exécution 
 
--
+
 
 ### small_page_links.nt
 
