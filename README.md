@@ -1,11 +1,5 @@
 # Pagerank_Project
 
-#!/bin/bash
-
-# Créer le fichier README
-cat << EOF > README.md
-# Pagerank on Cloud
-
 ## Installation Prérequis
 
 Avant d'exécuter les scripts, il est recommandé d'installer le SDK Google Cloud (CLI) sur votre ordinateur pour éviter les problèmes de connexion avec Cloud Shell. Vous pouvez télécharger et l'installer en suivant les instructions ci-dessous :
