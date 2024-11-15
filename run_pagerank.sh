@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Variables de configuration
-PROJECT_ID="pagerank-441218"      # Remplacez par votre ID de projet Google Cloud
+PROJECT_ID="pagerank-441218"      # Remplacez par le ID de projet Google Cloud
 REGION="europe-west1"              # Région pour Dataproc en France
-BUCKET_NAME="pagerankbuck"       # Nom de votre bucket GCS
-SCRIPT_PATH="gs://$BUCKET_NAME/pagerank_dataframe.py"  # Chemin vers votre script PySpark
+BUCKET_NAME="pagerankbuck"       # Nom de bucket GCS
+SCRIPT_PATH="gs://$BUCKET_NAME/pagerank_dataframe.py"  # Chemin vers le script PySpark
 DATA_FILE="gs://public_lddm_data/small_page_links.nt"  # Chemin vers le fichier de données dans le bucket public
 OUTPUT_PATH="gs://$BUCKET_NAME/pagerank_results"  # Chemin pour les résultats
 
 # Liste des configurations de cluster (nombre de nœuds)
-declare -a NODE_COUNTS=(1 2 4)  # Nombre de nœuds pour les tests, incluant 1 nœud
+declare -a NODE_COUNTS=(1 2 4)  
 
 # Supprimer les résultats précédents
 rm -f execution_times.txt
