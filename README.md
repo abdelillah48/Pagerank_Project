@@ -78,7 +78,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
 | 1     | 8248s                            | 8388s                                  |
-| 2     | s                                | 4338s                                      |
-| 4     | s                                | 3593s                                      |
+| 2     | -s                                | 4338s                                      |
+| 4     | -s                                | 3593s                                      |
 
 
