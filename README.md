@@ -35,7 +35,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 
 ## Résultats d'Exécution 
 
-###small_page_links.nt
+### small_page_links.nt
 
 ##### Sans Partitionnemen
 
@@ -53,7 +53,7 @@ Il existe deux méthodes pour calculer le Pagerank :
 | 2     | s                              | s                                    |
 | 4     | s                              | s                                    |
 
-###page_links_en.nt.bz
+### page_links_en.nt.bz
 
 ##### Sans Partitionnement
 
