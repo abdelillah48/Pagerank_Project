@@ -59,34 +59,26 @@ Il existe deux méthodes pour calculer le Pagerank :
 
 | Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
 |-------|----------------------------------|---------------------------------------|
-| 1     | 68s                              | 204s                                   |
-| 2     | 65s                              | 174s                                   |
-| 4     | 68s                              | 184s                                   |
+| 1     | 103s                             | 204s                                   |
+| 2     | 95s                              | 174s                                   |
+| 4     | 99s                              | 184s                                   |
 
 2. **Avec Partitionnement**
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
-| 1     | 56s                              | 103s                                    |
+| 1     | 56s                              | 103s                                   |
 | 2     | 55s                              | 95s                                    |
 | 4     | 54s                              | 99s                                    |
 
 ### page_links_en.nt.bz
 
-1. **Sans Partitionnement**
-
-| Nœuds | RDD - Temps sans partitionnement | DataFrame - Temps sans partitionnement |
-|-------|----------------------------------|---------------------------------------|
-| 1     | s                              | s                                   |
-| 2     | s                              | s                                   |
-| 4     | s                              | s                                   |
-
-2. **Avec Partitionnement**
+1. **Avec Partitionnement**
 
 | Nœuds | RDD - Temps avec partitionnement | DataFrame - Temps avec partitionnement |
 |-------|----------------------------------|----------------------------------------|
-| 1     | s                              | s                                    |
-| 2     | s                              | s                                    |
-| 4     | s                              | s                                    |
+| 1     | 8248s                            | 8388s                                  |
+| 2     | s                                | 4338s                                      |
+| 4     | s                                | 3593s                                      |
 
 
