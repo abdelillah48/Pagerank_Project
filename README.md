@@ -106,3 +106,7 @@ Les résultats pour ces données volumineuses ont été obtenus en choisissant l
 | <http://dbpedia.org/resource/England> | 2190.84 |
 | <http://dbpedia.org/resource/World_War_II> | 2007.83 |
 
+
+### Note 
+
+Les résultats pour les données en mode 'sans partitionnement' ne sont pas disponibles, car tous les crédits ont été consommés
